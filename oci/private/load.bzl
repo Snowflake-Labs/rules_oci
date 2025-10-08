@@ -247,6 +247,7 @@ def _load_impl(ctx):
 
     return [
         DefaultInfo(
+            files = depset([tarball]),
             runfiles = runfiles,
             executable = runnable_loader,
         ),

@@ -277,3 +277,5 @@ def oci_load(name, repo_tags = None, **kwargs):
         repo_tags = repo_tags,
         **kwargs
     )
+
+oci_tarball = oci_load
